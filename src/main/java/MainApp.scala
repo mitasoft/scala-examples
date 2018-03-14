@@ -7,8 +7,9 @@ object MainApp {
 
     basics()
 
-    val demoMethods = DemoMethods.run()
-
+    DemoMethods.run()
+    DemoClasses.run()
+    DemoTypes.run()
   }
 
 
