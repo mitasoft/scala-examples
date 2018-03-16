@@ -10,6 +10,9 @@ object MainApp {
     DemoMethods.run()
     DemoClasses.run()
     DemoTypes.run()
+    DemoTraits.run()
+    DemoClassMixins.run()
+    DemoHigherOrderFunctions.main(null)
   }
 
 

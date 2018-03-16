@@ -1,3 +1,4 @@
+import scala.runtime.Nothing$
 
 object DemoTypes {
 
@@ -14,6 +15,16 @@ object DemoTypes {
     )
 
     list.foreach(e => println(e))
+
+    typeCasting()
+
+  }
+
+
+  def typeCasting() = {
+
+    val x: Long = 987654321
+    val y: Float = x
 
   }
 

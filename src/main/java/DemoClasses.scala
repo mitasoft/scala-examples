@@ -26,6 +26,24 @@ object DemoClasses {
       println(s"$point and $thirdPoint are different")
     }
 
+    val point1 = new Point2(10, 10)
+    println(point1)
+
+    point1.move(5,5)
+    println(point1)
+
+    val point2 = new Point2()
+    println(point2)
+
+    val point3 = new Point2(y = 10)
+    println(point3)
+
+    val point4 = new Point3()
+    point4.x = 100
+
+    println(point4)
+
+
   }
 
 }
